@@ -17,3 +17,71 @@ html, body {
 canvas {
 	display:block;
 } /* To remove the scrollbars */
+
+#intro {
+	text-align: center;
+	width: 100vw;
+	justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    line-height: 1;
+    padding: 8rem 0rem 6rem 0rem;
+}
+
+#intro h1 {
+	font-size: 5rem;
+}
+
+#intro p {
+	font-size: 1.25rem;
+	font-style: italic;
+}
+
+.whiteSpace {
+	white-space: nowrap;
+}
+
+.companyLogo {
+	display:inline;
+	float:left;
+	height:5em;
+	padding-right:15px;
+}
+
+.margin3 {
+	margin-bottom: 0.3em;
+}
+
+.floatRight {
+	float: right;
+}
+
+.jobWrapper {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	padding: 8rem 8rem 6rem 8rem;
+}
+
+.jobTitle {
+	font-size: 1.25rem;
+	line-height: 1.3;
+	font-weight: 900;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+}
+
+.jobWrapper ul {
+	margin: 2rem 0 2rem 0;
+}
+
+.major {
+	font-size: 4rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+
+
+
