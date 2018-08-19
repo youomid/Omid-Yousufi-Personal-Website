@@ -58,6 +58,11 @@ canvas {
 	float: right;
 }
 
+#mainWrapper {
+	background-color: #ffffff;
+	margin: 0 8rem 8rem 8rem;
+}
+
 .jobWrapper {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	padding: 8rem 8rem 6rem 8rem;
