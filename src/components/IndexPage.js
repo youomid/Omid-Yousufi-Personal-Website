@@ -1,19 +1,27 @@
 import React from 'react';
+import Introduction from './Introduction';
 
 export default class IndexPage extends React.Component {
   render() {
     return (
       <div >
-      	<canvas id="bg-canvas">Error, canvas is not supported</canvas>
+      	<canvas id="bgCanvas">Error, canvas is not supported</canvas>
+      	<div className="foreground">
+			<Introduction />
+		</div>
       </div>
     );
   }
 
   componentDidMount() {
-  	var canvas = document.getElementById('bg-canvas');
+  	this.setupCanvas()
+  }
+
+  setupCanvas() {
+  	var canvas = document.getElementById('bgCanvas');
 	var context = canvas.getContext('2d');
 
-	// dynamically set height and width
+	// dynamically set height and width of canvas based on viewport
 	window.addEventListener('resize', resizeCanvas, false);
 
     function resizeCanvas() {
@@ -26,10 +34,9 @@ export default class IndexPage extends React.Component {
     resizeCanvas()
 
     function drawBackground() {
-		context.fillStyle = "blue";
+		context.fillStyle = "#f0f7ff";
 		context.fillRect(0, 0, canvas.width, canvas.height);
     }
-
   }
 
 }

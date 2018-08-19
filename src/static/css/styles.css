@@ -1,7 +1,11 @@
-#canvasSection{
+body {
+	margin: 0;
+}
+
+#bgCanvas{
 	position:fixed;
 }
 
-body {
-	margin: 0;
+.foreground {
+	position: absolute;
 }
