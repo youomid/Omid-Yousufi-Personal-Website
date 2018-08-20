@@ -190,7 +190,16 @@ a.image:hover img {
 
 /*education section*/
 
+.schoolLogo {
+	display:inline;
+	float:left;
+	height:6.5em;
+	padding-right:15px;
+}
 
+.margin0 {
+	margin-bottom: 0;
+}
 
 /*skills section*/
 
