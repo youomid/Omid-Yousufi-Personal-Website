@@ -2,6 +2,8 @@ import React from 'react';
 import Introduction from './Introduction';
 import Experience from './Experience';
 import Projects from './Projects';
+import Education from './Education';
+import Skills from './Skills';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -12,7 +14,12 @@ export default class IndexPage extends React.Component {
 			<Introduction />
 			<div id="mainWrapper">
 				<Experience />
+				<hr/>
 				<Projects />
+				<hr/>
+				<Education />
+				<hr/>
+				<Skills />
 			</div>
 		</div>
       </div>

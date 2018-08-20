@@ -47,7 +47,7 @@ canvas {
 	white-space: nowrap;
 }
 
-.companyLogo {
+.logo {
 	display:inline;
 	float:left;
 	height:5em;
@@ -175,6 +175,21 @@ a.image:hover img {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	transform: scale(1.05);
+}
+
+/*education section*/
+
+
+
+/*skills section*/
+
+.paddingLeft {
+	padding-left: 0;
+}
+
+.skillsList {
+	list-style: none;
+	padding-left:0;
 }
 
 

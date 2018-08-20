@@ -9,7 +9,7 @@ export default class Experience extends React.Component {
 					<h1>Experience</h1>
 				</header>
 				<div className="whiteSpace">
-					<img className="companyLogo" src="img/bct_logo.png" />
+					<img className="logo" src="img/bct_logo.png" />
 					<div>
 						<h2 className="margin3 jobTitle">Full Stack Software Engineer </h2>
 						<p>BroadConnect Telecom - Toronto, Ontario<span className="floatRight">November, 2017 - Present</span></p>
@@ -33,7 +33,7 @@ export default class Experience extends React.Component {
 					</li>
 				</ul>
 				<div className="whiteSpace">
-					<img className="companyLogo" src="img/bct_logo.png" />
+					<img className="logo" src="img/bct_logo.png" />
 					<div>
 						<h2 className="margin3 jobTitle">Junior Full Stack Software Engineer</h2>
 						<p>BroadConnect Telecom - Toronto, Ontario<span className="floatRight">May, 2016 - November, 2017</span></p>
