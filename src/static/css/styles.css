@@ -16,7 +16,7 @@ html, body {
 
 canvas {
 	display:block;
-} /* To remove the scrollbars */
+}
 
 /*intro section*/
 
@@ -106,9 +106,9 @@ canvas {
 	max-width: 40%;
 }
 
-	.image.left img, .image.right img {
-		width: 100%;
-	}
+.image.left img, .image.right img {
+	width: 100%;
+}
 
 .image.left {
 	float: left;

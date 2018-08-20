@@ -15,6 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 // define the folder that will be used for static assets
 app.use(Express.static(path.join(__dirname, 'static')));
+app.use(Express.static(path.join(__dirname, '../node_modules')));
 
 // universal routing and rendering
 app.get('*', (req, res) => {
@@ -26,7 +27,7 @@ app.get('*', (req, res) => {
       if (err) {
         return res.status(500).send(err.message);
       }
-
+      console.log(redirectLocation)
       // in case of redirect propagate the redirect to the browser
       if (redirectLocation) {
         return res.redirect(302, redirectLocation.pathname + redirectLocation.search);
