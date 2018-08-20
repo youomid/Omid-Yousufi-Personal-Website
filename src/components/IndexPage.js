@@ -1,6 +1,7 @@
 import React from 'react';
 import Introduction from './Introduction';
-import Main from './Main';
+import Experience from './Experience';
+import Projects from './Projects';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -9,7 +10,10 @@ export default class IndexPage extends React.Component {
       	<canvas id="bgCanvas">Error, canvas is not supported</canvas>
       	<div className="foreground">
 			<Introduction />
-			<Main />
+			<div id="mainWrapper">
+				<Experience />
+				<Projects />
+			</div>
 		</div>
       </div>
     );
