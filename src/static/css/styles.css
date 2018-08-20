@@ -41,6 +41,17 @@ canvas {
 	font-style: italic;
 }
 
+.icons {
+    list-style: none;
+    padding-left: 0;
+}
+
+.icons li {
+	display: inline;
+	font-size: 2.5rem;
+	padding: 0.75rem;
+}
+
 /*experience section*/
 
 .whiteSpace {
@@ -190,6 +201,21 @@ a.image:hover img {
 .skillsList {
 	list-style: none;
 	padding-left:0;
+}
+
+/*footer*/
+
+#footer {
+	position: relative;
+	cursor: default;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 0.8rem;
+	font-weight: 900;
+	letter-spacing: 0.075em;
+	line-height: 1.5;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 8rem 8rem 8rem 8rem;
 }
 
 

@@ -21,6 +21,9 @@ export default class IndexPage extends React.Component {
 				<hr/>
 				<Skills />
 			</div>
+			<div id="footer">
+				Omid Yousufi | Software Engineer
+			</div>
 		</div>
       </div>
     );
