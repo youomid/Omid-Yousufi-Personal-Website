@@ -9,50 +9,30 @@ export default class IndexPage extends React.Component {
   render() {
     return (
       <div >
-      	<canvas id="bgCanvas">Error, canvas is not supported</canvas>
+        <div className="background" style={{color: "#fff"}}>
+          <div id="snow1">
+          </div>
+          <div id="snow2">
+          </div>
+          <div id="snow3">
+          </div>
+        </div>
       	<div className="foreground">
-			<Introduction />
-			<div id="mainWrapper">
-				<Experience />
-				<hr/>
-				<Projects />
-				<hr/>
-				<Education />
-				<hr/>
-				<Skills />
-			</div>
-			<div id="footer">
-				Omid Yousufi | Software Engineer
-			</div>
-		</div>
+    			<Introduction />
+    			<div id="mainWrapper">
+    				<Experience />
+    				<hr/>
+    				<Projects />
+    				<hr/>
+    				<Education />
+    				<hr/>
+    				<Skills />
+    			</div>
+    			<div id="footer">
+    				Omid Yousufi | Software Engineer
+    			</div>
+    		</div>
       </div>
     );
   }
-
-  componentDidMount() {
-  	this.setupCanvas()
-  }
-
-  setupCanvas() {
-  	var canvas = document.getElementById('bgCanvas');
-	var context = canvas.getContext('2d');
-
-	// dynamically set height and width of canvas based on viewport
-	window.addEventListener('resize', resizeCanvas, false);
-
-    function resizeCanvas() {
-    	console.log('Resizing canvas');
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        drawBackground()
-    }
-
-    resizeCanvas()
-
-    function drawBackground() {
-		context.fillStyle = "#f0f7ff";
-		context.fillRect(0, 0, canvas.width, canvas.height);
-    }
-  }
-
 }
