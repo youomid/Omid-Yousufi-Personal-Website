@@ -119,6 +119,7 @@ html, body {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     line-height: 1;
     padding: 8rem 0rem 6rem 0rem;
+    color: #fff;
 }
 
 #intro h1 {
@@ -177,6 +178,7 @@ html, body {
 
 .sectionWrapper {
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	color: #fff;
 	padding: 6rem 8rem 6rem 8rem;
 }
 
@@ -221,7 +223,7 @@ html, body {
 }
 
 .project header h2 a{
-	color: #000;	
+	color: #fff;	
 }
 
 .project header h2 a:hover{
@@ -355,4 +357,5 @@ a.image:hover img {
 	text-align: center;
 	text-transform: uppercase;
 	margin: 8rem 8rem 8rem 8rem;
+	color: #fff;
 }
