@@ -4,7 +4,7 @@ export default class Skills extends React.Component {
   render() {
     return (
     	<div>
-			<div className="row sectionWrapper">
+			<div id="skills" className="row sectionWrapper">
 				<div className="col-sm-4">
 					<h3>Languages</h3>
 					<ul className="skillsList">

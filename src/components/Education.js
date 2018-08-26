@@ -4,7 +4,7 @@ export default class Education extends React.Component {
   render() {
     return (
     	<div>
-			<section className="whiteSpace sectionWrapper" >
+			<section id="education" className="whiteSpace sectionWrapper" >
 				<header className="major">
 					<h1>Education</h1>
 				</header>

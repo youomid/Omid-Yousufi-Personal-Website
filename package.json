@@ -31,6 +31,7 @@
   "devDependencies": {
     "babel-loader": "^6.2.10",
     "http-server": "^0.9.0",
+    "react-scroll": "^1.7.10",
     "webpack": "^1.13.3"
   }
 }

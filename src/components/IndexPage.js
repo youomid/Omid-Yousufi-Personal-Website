@@ -21,11 +21,8 @@ export default class IndexPage extends React.Component {
     			<Introduction />
     			<div id="mainWrapper">
     				<Experience />
-    				<hr/>
     				<Projects />
-    				<hr/>
     				<Education />
-    				<hr/>
     				<Skills />
     			</div>
     			<div id="footer">

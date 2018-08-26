@@ -149,6 +149,16 @@ html, body {
 	color: #fff;
 }
 
+#arrow {
+	margin: 7rem;
+	font-size: 4rem;
+	color: #fff;
+}
+
+#arrow:hover {
+	text-decoration: none;
+	color: #ccc;
+}
 
 /*experience section*/
 
