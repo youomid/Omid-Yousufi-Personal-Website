@@ -27,7 +27,6 @@ app.get('*', (req, res) => {
       if (err) {
         return res.status(500).send(err.message);
       }
-      console.log(redirectLocation)
       // in case of redirect propagate the redirect to the browser
       if (redirectLocation) {
         return res.redirect(302, redirectLocation.pathname + redirectLocation.search);
