@@ -158,6 +158,7 @@ html, body {
 #arrow:hover {
 	text-decoration: none;
 	color: #ccc;
+	cursor: pointer;
 }
 
 /*experience section*/

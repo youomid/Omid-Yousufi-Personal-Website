@@ -3,10 +3,6 @@ import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } 
 
 export default class Introduction extends React.Component {
 
-  goToExperienceSection() {
-   
-  }
-
   render() {
     return (
       <div id="intro">
@@ -20,8 +16,8 @@ export default class Introduction extends React.Component {
           <li><a href="https://github.com/youomid" className="fab fa-github-square"></a></li>
           <li><a href="omid_yousufi_resume.pdf" className="fas fa-file"></a></li>
         </ul>
-        <Link to="firstInsideContainer" smooth={true} duration={800}>
-          <span id="arrow" className="fas fa-arrow-circle-down" onClick={this.goToExperienceSection()}></span>
+        <Link to="experience" smooth={true} duration={800}>
+          <span id="arrow" className="fas fa-arrow-circle-down"></span>
         </Link>
       </div>
     );
