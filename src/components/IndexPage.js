@@ -6,6 +6,43 @@ import Education from './Education';
 import Skills from './Skills';
 
 export default class IndexPage extends React.Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      activeComponent: <Introduction/>,
+    }
+  }
+
+  setActiveComponent(component){
+
+    switch(component) {
+        case "Introduction":
+          this.setState({ 
+            activeComponent: <Introduction/>,
+          });
+          break;
+        case "Experience":
+          this.setState({ 
+            activeComponent: <Experience/>,
+          });
+          break;
+        case "Projects":
+          this.setState({ 
+            activeComponent: <Projects/>,
+          });
+          break;
+        case "Education":
+          this.setState({ 
+            activeComponent: <Education/>,
+          });
+          break;
+        default:
+            console.log("Can not switch to that component.");
+    }
+
+  }
+
   render() {
     return (
       <div >
@@ -18,13 +55,13 @@ export default class IndexPage extends React.Component {
           </div>
         </div>
       	<div className="foreground">
-    			<Introduction />
-    			<div id="mainWrapper">
-    				<Experience />
-    				<Projects />
-    				<Education />
-    				<Skills />
-    			</div>
+          <div id="header">
+            <span onClick={() => { this.setActiveComponent("Introduction")}}>About Me</span> | 
+            <span onClick={() => { this.setActiveComponent("Experience")}}>Experience</span> | 
+            <span onClick={() => { this.setActiveComponent("Projects")}}>Projects</span> | 
+            <span onClick={() => { this.setActiveComponent("Education")}}>Education</span>
+          </div>
+            { this.state.activeComponent }
     			<div id="footer">
     				Omid Yousufi | Software Engineer
     			</div>

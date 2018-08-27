@@ -1,11 +1,9 @@
 import React from 'react';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 
 export default class Experience extends React.Component {
   render() {
     return (
-      <Element name="experience">
 		<section id="experience" className="sectionWrapper">
 			<header className="major">
 				<h1>Experience</h1>
@@ -60,7 +58,6 @@ export default class Experience extends React.Component {
 				</ul>
 			</div>
 		</section>
-      </Element>
     );
   }
 }

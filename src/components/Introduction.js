@@ -1,41 +1,26 @@
 import React from 'react';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 export default class Introduction extends React.Component {
 
   render() {
     return (
       <div id="intro">
-        <div >
-          <img height="250" width="200" src="/img/profile.jpg" alt="" />
-        </div>
-        <h1 className="name">Omid Yousufi</h1>
-        <p>Software Engineer -  Toronto, Ontario</p>
-        <ul className="icons">
-          <li><a href="https://www.linkedin.com/in/omidyousufi/" className="fab fa-linkedin"></a></li>
-          <li><a href="https://github.com/youomid" className="fab fa-github-square"></a></li>
-          <li><a href="omid_yousufi_resume.pdf" className="fas fa-file"></a></li>
-        </ul>
-        <Link to="experience" smooth={true} duration={800}>
-          <span id="arrow" className="fas fa-arrow-circle-down"></span>
-        </Link>
+        <section className="row">
+          <div id="introSideBar" className="col-sm-3">
+            <img height="125" width="125" src="img/round_profile.png" alt="" />
+            <div>Omid Yousufi</div>
+            <p>Software Engineer</p>
+          </div>
+          <div id="introText" className="col-sm-9">
+            <p>
+              Hello, I am Omid Yousufi! I am a full stack
+              software engineer working in Toronto. I graduated from
+              McMaster University with a bachelor's in engineering.
+            </p>
+          </div>
+        </section>
       </div>
     );
-  }
-
-  componentDidMount() {
-    Events.scrollEvent.register('begin', function(to, element) {
-      console.log("begin", arguments);
-    });
-    Events.scrollEvent.register('end', function(to, element) {
-      console.log("end", arguments);
-    });
-    scrollSpy.update();
-  }
-
-  componentWillUnmount() {
-    Events.scrollEvent.remove('begin');
-    Events.scrollEvent.remove('end');
   }
 
 }
