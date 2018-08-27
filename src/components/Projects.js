@@ -3,13 +3,10 @@ import React from 'react';
 export default class Projects extends React.Component {
   render() {
     return (
-    	<div>
-			<section id="projects" className="sectionWrapper">
-				<header className="major">
-					<h1>Projects</h1>
-				</header>
-				<div className="row">
-					<article className="project col-sm-6">
+    	<div className="sectionWrapper">
+			<section>
+				<div className="row" style={{margin:"1rem",height:"60vh"}}>
+					<article className="project col-lg-6">
 						<header>
 							<p>May, 2018 - Present</p>
 							<h2><a href="https://github.com/youomid/MeasureMe">MeasureMe</a></h2>
@@ -18,7 +15,7 @@ export default class Projects extends React.Component {
 						<p>A personal analytics web application that uses a realtime distributed event processing system to provide insight into a user's productivity.</p>
 						<div style={{fontSize:"0.7em"}}><strong>Technologies:</strong> Docker, Angular, Django</div>
 					</article>
-					<article className="project col-sm-6">
+					<article className="project col-lg-6">
 						<header>
 							<p>February, 2018 - April, 2018</p>
 							<h2><a href="spritegen/">SpriteGen</a></h2>
@@ -27,7 +24,7 @@ export default class Projects extends React.Component {
 						<p>A web application that procedurally generates 2D pixel sprites using the Pixel Robot algorithm.</p>
 						<div style={{fontSize:"0.7em"}}><strong>Technologies:</strong> AngularJS, Express.js</div>
 					</article>
-					<article className="project col-sm-6">
+					<article className="project col-lg-6">
 						<header>
 							<p>January, 2017 - January, 2018</p>
 							<h2><a href="tiltorcarry/">TiltOrCarry</a></h2>
@@ -37,7 +34,7 @@ export default class Projects extends React.Component {
 						<div style={{fontSize:"0.7em"}}><strong>Technologies:</strong> React, Redux, Django, Bootstrap, Nginx, Celery, PostgreSQL, Webpack</div>
 						<div style={{fontSize:"0.7em"}}><strong>Algorithms:</strong> Logistic Regression</div>
 					</article>
-					<article className="project col-sm-6">
+					<article className="project col-lg-6">
 						<header>
 							<p>September, 2015 - February, 2016</p>
 							<h2><a href="https://play.google.com/store/apps/details?id=com.voltropic.imdo.dynamictimer">Dynamic Timer</a></h2>

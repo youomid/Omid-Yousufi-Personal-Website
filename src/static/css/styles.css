@@ -27,6 +27,10 @@ html, body {
 	color: #fff;
 }
 
+#header span {
+	cursor: pointer;
+}
+
 /*background snow*/
 
 .background {
@@ -125,17 +129,6 @@ html, body {
 
 /*intro section*/
 
-#intro {
-	width: 100vw;
-	justify-content: center;
-    min-height: 63vh;
-    display: flex;
-    flex-direction: column;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    line-height: 1;
-    color: #fff;
-}
-
 #intro h1 {
 	font-size: 5rem;
 	text-transform: uppercase;
@@ -146,17 +139,6 @@ html, body {
 #intro p {
 	font-size: 1.25rem;
 	font-style: italic;
-}
-
-#intro section {
-    margin-left: 15rem;
-    margin-right: 15rem;
-    background-color: #ccc;
-    height: 60vh;
-	color: #2a93cb;
-	background-color: #fff;
-	border-radius: 2px;
-	border: 2px #fff solid;
 }
 
 #introSideBar {
@@ -229,9 +211,25 @@ html, body {
 }
 
 .sectionWrapper {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	color: #fff;
-	padding: 6rem 8rem 6rem 8rem;
+    width: 100vw;
+	justify-content: center;
+    min-height: 63vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    line-height: 1;
+    color: #fff;
+}
+
+.sectionWrapper section {
+	margin-left: 15rem;
+    margin-right: 15rem;
+    background-color: #ccc;
+	color: #2a93cb;
+	background-color: #fff;
+	border-radius: 2px;
+	height: 60vh;
+	border: 2px #fff solid;
 }
 
 .jobTitle {
@@ -261,6 +259,7 @@ html, body {
 
 .project {
 	margin: 0 0 1rem 0;
+	height: 50vh;
 }
 
 .project p {
@@ -275,7 +274,7 @@ html, body {
 }
 
 .project header h2 a{
-	color: #fff;	
+	color: #2a93cb;	
 }
 
 .project header h2 a:hover{
@@ -291,6 +290,7 @@ html, body {
 	border: 0;
 	display: inline-block;
 	position: relative;
+	margin-bottom: 2rem;
 }
 
 .image img {
@@ -319,7 +319,6 @@ html, body {
 
 .image.fit {
 	display: block;
-	margin: 2rem 0;
 	width: 100%;
 }
 

@@ -10,12 +10,15 @@ export default class IndexPage extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      activeComponent: <Introduction/>,
+      activeComponent: <Projects/>,
     }
   }
 
-  setActiveComponent(component){
+  highlightComponent(component) {
+    //TODO: underline the selected component in the header
+  }
 
+  setActiveComponent(component){
     switch(component) {
         case "Introduction":
           this.setState({ 
@@ -40,7 +43,7 @@ export default class IndexPage extends React.Component {
         default:
             console.log("Can not switch to that component.");
     }
-
+    this.highlightComponent(component)
   }
 
   render() {
@@ -56,10 +59,10 @@ export default class IndexPage extends React.Component {
         </div>
       	<div className="foreground">
           <div id="header">
-            <span onClick={() => { this.setActiveComponent("Introduction")}}>About Me</span> | 
-            <span onClick={() => { this.setActiveComponent("Experience")}}>Experience</span> | 
-            <span onClick={() => { this.setActiveComponent("Projects")}}>Projects</span> | 
-            <span onClick={() => { this.setActiveComponent("Education")}}>Education</span>
+            <span id="introductionNav" onClick={() => { this.setActiveComponent("Introduction")}}>About Me</span> | 
+            <span id="experienceNav"  onClick={() => { this.setActiveComponent("Experience")}}>Experience</span> | 
+            <span id="projectsNav"  onClick={() => { this.setActiveComponent("Projects")}}>Projects</span> | 
+            <span id="educationNav"  onClick={() => { this.setActiveComponent("Education")}}>Education</span>
           </div>
             { this.state.activeComponent }
     			<div id="footer">

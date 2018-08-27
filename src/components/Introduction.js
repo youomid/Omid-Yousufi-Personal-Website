@@ -4,7 +4,7 @@ export default class Introduction extends React.Component {
 
   render() {
     return (
-      <div id="intro">
+      <div id="intro" className="sectionWrapper">
         <section className="row">
           <div id="introSideBar" className="col-sm-3">
             <img height="125" width="125" src="img/round_profile.png" alt="" />
