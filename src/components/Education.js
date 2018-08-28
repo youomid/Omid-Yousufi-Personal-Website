@@ -3,11 +3,8 @@ import React from 'react';
 export default class Education extends React.Component {
   render() {
     return (
-    	<div>
-			<section id="education" className="whiteSpace sectionWrapper" >
-				<header className="major">
-					<h1>Education</h1>
-				</header>
+    	<div className="sectionWrapper">
+			<section id="education" className="whiteSpace" >
 				<img className="schoolLogo" src="img/mcmaster_logo.png" />
 				<header>
 					<h2>Bachelor of Engineering, Electrical </h2>

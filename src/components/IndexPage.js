@@ -10,7 +10,7 @@ export default class IndexPage extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      activeComponent: <Projects/>,
+      activeComponent: <Experience/>,
     }
   }
 
@@ -66,7 +66,7 @@ export default class IndexPage extends React.Component {
           </div>
             { this.state.activeComponent }
     			<div id="footer">
-    				Omid Yousufi | Software Engineer
+    				Omid Yousufi | Software Developer
     			</div>
     		</div>
       </div>
