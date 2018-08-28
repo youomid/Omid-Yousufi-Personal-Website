@@ -266,6 +266,13 @@ html, body {
 
 /*projects section*/
 
+.projects {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	padding: 1rem;
+}
+
 .project {
 	padding-bottom: 1rem;
     border-radius: .286rem;
@@ -406,6 +413,13 @@ a.image:hover img {
 }
 
 /*education section*/
+
+.education {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	padding: 4rem;
+}
 
 .schoolLogo {
 	display:inline;

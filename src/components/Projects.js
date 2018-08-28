@@ -5,7 +5,7 @@ export default class Projects extends React.Component {
     return (
     	<div className="sectionWrapper">
 			<section>
-				<div className="row" style={{margin:"0",height:"100%",width:"100%", padding:"1rem"}}>
+				<div className="row projects">
 					<article className="project col-lg-4">
 						<a href="https://github.com/youomid/MeasureMe" className="image fit"><img src="img/measureme.png" alt="" /></a>
 						<header>
@@ -45,10 +45,7 @@ export default class Projects extends React.Component {
 							<div className="technology">React</div>
 							<div className="technology">Redux</div>
 							<div className="technology">Django</div>
-							<div className="technology">Celery</div>
 							<div className="technology">PostgreSQL</div>
-							<div className="technology">Webpack</div>
-							<div className="technology">Nginx</div>
 							<div className="technology">Logistic Regression</div>
 						</div>
 					</article>
