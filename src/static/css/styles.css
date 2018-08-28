@@ -267,23 +267,33 @@ html, body {
 /*projects section*/
 
 .project {
-	margin: 0 0 1rem 0;
-	height: 50vh;
+	padding-bottom: 1rem;
+    border-radius: .286rem;
+    height: 50%
 }
 
 .project p {
 	margin: 0 0 1rem 0;
 }
 
+.project header {
+	height: 10%;
+}
+
+.project a {
+	height: 65%;
+}
+
 .project header h2 {
-	font-size: 1.75rem;
 	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
+	font-size: 1.25rem;
 }
 
 .project header h2 a{
 	color: #2a93cb;	
+	float: left;
 }
 
 .project header h2 a:hover{
@@ -291,15 +301,30 @@ html, body {
 	text-decoration: none;	
 }
 
-.project header p {
-	text-align: center;
+.projectDescription {
+	height: 15%;
+}
+
+.technologies {
+	height: 10%;
+}
+
+.technology {
+	display: inline-block;
+	background-color: #e8e8e8;
+	border: 0 solid transparent;
+    margin: 0 .143em 4px .143em;
+    border-radius: .286rem;
+	line-height: 1;
+	padding: .58em .8em;
+	color: rgba(0,0,0,.6);
+	font-size: 0.75rem;
 }
 
 .image {
 	border: 0;
 	display: inline-block;
 	position: relative;
-	margin-bottom: 2rem;
 }
 
 .image img {
