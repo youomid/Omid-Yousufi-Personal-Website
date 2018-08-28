@@ -6,10 +6,40 @@ export default class Introduction extends React.Component {
     return (
       <div id="intro" className="sectionWrapper">
         <section className="row">
-          <div id="introSideBar" className="col-sm-3">
-            <img height="125" width="125" src="img/round_profile.png" alt="" />
-            <div>Omid Yousufi</div>
-            <p>Software Developer</p>
+          <div className="col-sm-3 sidebar">
+            <div id="introSideBar">
+              <img height="125" width="125" src="img/round_profile.png" alt="" />
+              <div>Omid Yousufi</div>
+              <p>Full Stack Software Developer</p>
+            </div>
+            <div id="skills">
+              <div id="myTechnologies">
+                Technologies
+                <ul>
+                  <li>Django</li>
+                  <li>AngularJS, ReactJS, Redux</li>
+                  <li>Redis, PostgreSQL</li>
+                </ul>
+              </div>
+              <div id="languages">
+                Languages
+                <ul>
+                  <li>Python</li>
+                  <li>Javascript</li>
+                  <li>Golang</li>
+                </ul>
+              </div>
+              <div id="others">
+                Others
+                <ul>
+                  <li>Nginx</li>
+                  <li>Celery</li>
+                  <li>RabbitMQ</li>
+                  <li>AWS</li>
+                  <li>Ubuntu</li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div id="introText" className="col-sm-9">
             <p>

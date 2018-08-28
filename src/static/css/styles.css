@@ -129,6 +129,7 @@ html, body {
 
 /*intro section*/
 
+
 #intro h1 {
 	font-size: 5rem;
 	text-transform: uppercase;
@@ -141,9 +142,12 @@ html, body {
 	font-style: italic;
 }
 
-#introSideBar {
+.sidebar {
 	background-color: #2a93cb;
 	color: #fff;
+}
+
+#introSideBar {
 	text-align: center;
 }
 
@@ -152,9 +156,24 @@ html, body {
 	margin-bottom: 1rem;
 }
 
+#myTechnologies ul {
+	list-style: none;
+}
+
+#languages ul {
+	list-style: none;
+}
+
+#others ul {
+	list-style: none;
+}
+
 #introText {
 	padding: 4rem;
 	text-align: left;
+}
+
+#skills {
 }
 
 .icons {

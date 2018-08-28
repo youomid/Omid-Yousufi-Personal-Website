@@ -10,7 +10,7 @@ export default class IndexPage extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      activeComponent: <Education/>,
+      activeComponent: <Introduction/>,
     }
   }
 
