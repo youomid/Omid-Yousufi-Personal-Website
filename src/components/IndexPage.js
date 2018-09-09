@@ -16,6 +16,10 @@ export default class IndexPage extends React.Component {
 
   highlightComponent(component) {
     //TODO: underline the selected component in the header
+
+    // first, remove highlighted component using state info
+
+    // second, highlight the selected component and update state info
   }
 
   setActiveComponent(component){
@@ -66,7 +70,7 @@ export default class IndexPage extends React.Component {
           </div>
             { this.state.activeComponent }
     			<div id="footer">
-    				Omid Yousufi | Software Developer
+    				<span>Omid Yousufi</span> | <span>Full Stack Software Developer</span>
     			</div>
     		</div>
       </div>

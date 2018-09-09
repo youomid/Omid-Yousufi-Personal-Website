@@ -29,6 +29,7 @@ html, body {
 
 #header span {
 	cursor: pointer;
+	margin: 0.25rem;
 }
 
 /*background snow*/
@@ -137,11 +138,6 @@ html, body {
 	font-weight: 900;
 }
 
-#intro p {
-	font-size: 1.25rem;
-	font-style: italic;
-}
-
 .sidebar {
 	background-color: #2a93cb;
 	color: #fff;
@@ -151,9 +147,16 @@ html, body {
 	text-align: center;
 }
 
+#introSideBar p {
+	font-size: 1.25rem;
+	font-style: italic;
+}
+
 #introSideBar img {
 	margin-top: 2rem;
 	margin-bottom: 1rem;
+	border: 1px #fff solid;
+    border-radius: 300px;
 }
 
 #myTechnologies ul {
@@ -173,7 +176,12 @@ html, body {
 	text-align: left;
 }
 
-#skills {
+#introLinks {
+	list-style: none;
+}
+
+#introLinks span {
+	margin: .5rem;
 }
 
 .icons {
@@ -475,4 +483,8 @@ a.image:hover img {
 	text-align: center;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+#footer span {
+	margin: 0.25rem;
 }

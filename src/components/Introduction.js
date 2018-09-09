@@ -8,45 +8,68 @@ export default class Introduction extends React.Component {
         <section className="row">
           <div className="col-sm-3 sidebar">
             <div id="introSideBar">
-              <img height="125" width="125" src="img/round_profile.png" alt="" />
+              <img height="125" width="125" src="img/round_profile copy.png" alt="" />
               <div>Omid Yousufi</div>
               <p>Full Stack Software Developer</p>
             </div>
             <div id="skills">
               <div id="myTechnologies">
                 Technologies
-                <ul>
-                  <li>Django</li>
-                  <li>AngularJS, ReactJS, Redux</li>
-                  <li>Redis, PostgreSQL</li>
+                <ul className="technologies">
+                  <li className="technology">Django</li>
+                  <li className="technology">AngularJS</li>
+                  <li className="technology">ReactJS</li>
+                  <li className="technology">Redux</li>
+                  <li className="technology">Redis</li>
+                  <li className="technology">PostgreSQL</li>
                 </ul>
               </div>
               <div id="languages">
                 Languages
-                <ul>
-                  <li>Python</li>
-                  <li>Javascript</li>
-                  <li>Golang</li>
+                <ul className="technologies">
+                  <li className="technology">Python</li>
+                  <li className="technology">Javascript</li>
                 </ul>
               </div>
               <div id="others">
                 Others
-                <ul>
-                  <li>Nginx</li>
-                  <li>Celery</li>
-                  <li>RabbitMQ</li>
-                  <li>AWS</li>
-                  <li>Ubuntu</li>
+                <ul className="technologies">
+                  <li className="technology">Nginx</li>
+                  <li className="technology">Celery</li>
+                  <li className="technology">RabbitMQ</li>
+                  <li className="technology">AWS</li>
+                  <li className="technology">Ubuntu</li>
                 </ul>
               </div>
             </div>
           </div>
           <div id="introText" className="col-sm-9">
-            <p>
-              Hello, I am Omid Yousufi! I am a full stack
-              software developer working in Toronto. I graduated from
-              McMaster University with a bachelor's in engineering.
+            <p style={{fontSize: "3rem"}}> 
+              Hello, I'm Omid Yousufi!
             </p>
+            <div className="row">
+              <p className="col-lg-8" style={{fontSize: "1.5rem"}}>
+                I am a full stack software developer working in Toronto. In my spare time, I work on side projects exploring
+                different areas such as distributed systems design, machine learning, and procedural generation.
+              </p>
+              <p className="col-lg-4" style={{fontSize: "1.25rem"}}>
+                <ul id="introLinks">
+                  <li><span><i className="fas fa-envelope"></i></span>email@email.com</li>
+                  <li><span><i className="fas fa-file"></i></span>resume.pdf</li>
+                  <li><span><i className="fab fa-github-square"></i></span>github</li>
+                  <li><span><i className="fab fa-linkedin"></i></span>linkedin</li>
+                </ul>
+              </p>
+            </div>
+            <div className="education">
+              <img className="schoolLogo" src="img/mcmaster_logo.png" />
+              <header>
+                <h2>Bachelor of Engineering, Electrical </h2>
+                <p className="margin0">McMaster University - Hamilton, Ontario<span className="floatRight">2011 - 2015</span></p>
+                <p className="margin0"><strong>Courses: </strong>Analog Circuits, Power Systems, etc.</p>
+                <p><strong>Senior Capstone Project: X-Y Plotter</strong></p>
+              </header>
+            </div>
           </div>
         </section>
       </div>
