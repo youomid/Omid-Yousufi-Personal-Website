@@ -39,11 +39,6 @@ export default class IndexPage extends React.Component {
             activeComponent: <Projects/>,
           });
           break;
-        case "Education":
-          this.setState({ 
-            activeComponent: <Education/>,
-          });
-          break;
         default:
             console.log("Can not switch to that component.");
     }
@@ -65,8 +60,7 @@ export default class IndexPage extends React.Component {
           <div id="header">
             <span id="introductionNav" onClick={() => { this.setActiveComponent("Introduction")}}>About Me</span> | 
             <span id="experienceNav"  onClick={() => { this.setActiveComponent("Experience")}}>Experience</span> | 
-            <span id="projectsNav"  onClick={() => { this.setActiveComponent("Projects")}}>Projects</span> | 
-            <span id="educationNav"  onClick={() => { this.setActiveComponent("Education")}}>Education</span>
+            <span id="projectsNav"  onClick={() => { this.setActiveComponent("Projects")}}>Projects</span> 
           </div>
             { this.state.activeComponent }
     			<div id="footer">

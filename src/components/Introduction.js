@@ -51,21 +51,22 @@ export default class Introduction extends React.Component {
             </div>
           </div>
           <div id="introText" className="col-sm-9">
-            <p style={{fontSize: "3rem"}}> 
-              Hello, I'm Omid Yousufi!
-            </p>
-            <div className="row">
-              <p className="col-lg-8" style={{fontSize: "1.5rem"}}>
-                I am a full stack software developer working in Toronto. In my spare time, I work on side projects exploring
-                different areas such as distributed systems design, machine learning, and procedural generation.
+            <div className="introduction">
+              <p style={{fontSize: "3rem"}}> 
+                Hello, I'm Omid Yousufi!
               </p>
-              <div className="col-lg-4" style={{fontSize: "1.25rem"}}>
-                <ul id="introLinks">
-                  <li><span><i className="fas fa-envelope"></i></span>email@email.com</li>
-                  <li><span><i className="fas fa-file"></i></span>resume.pdf</li>
-                  <li><span><i className="fab fa-github-square"></i></span>github</li>
-                  <li><span><i className="fab fa-linkedin"></i></span>linkedin</li>
-                </ul>
+              <div className="row">
+                <p className="col-lg-8" style={{fontSize: "1.5rem"}}>
+                  I am a full stack software developer working in Toronto. My interests vary from distributed systems design
+                  to machine learning and procedural generation.
+                </p>
+                <div className="col-lg-4" style={{fontSize: "1.25rem"}}>
+                  <ul id="introLinks">
+                    <li><span><i className="fas fa-file"></i></span>resume.pdf</li>
+                    <li><span><i className="fab fa-github-square"></i></span>github</li>
+                    <li><span><i className="fab fa-linkedin"></i></span>linkedin</li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="education">
