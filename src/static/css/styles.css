@@ -147,9 +147,20 @@ html, body {
 	text-align: center;
 }
 
-#introSideBar p {
+#introSideBar div {
 	font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+#jobTitle {
 	font-style: italic;
+	margin-bottom: 0;
+    line-height: 1.2;
+}
+
+#location {
+    line-height: 1.2;
+	font-size: 0.9rem;
 }
 
 #introSideBar img {
@@ -163,12 +174,24 @@ html, body {
 	list-style: none;
 }
 
+#myTechnologies div {
+	margin: 1rem;
+}
+
 #languages ul {
 	list-style: none;
 }
 
+#languages div {
+	margin: 1rem;
+}
+
 #others ul {
 	list-style: none;
+}
+
+#others div {
+	margin: 1rem;
 }
 
 #introText {

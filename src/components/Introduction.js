@@ -10,11 +10,14 @@ export default class Introduction extends React.Component {
             <div id="introSideBar">
               <img height="125" width="125" src="img/round_profile copy.png" alt="" />
               <div>Omid Yousufi</div>
-              <p>Full Stack Software Developer</p>
+              <p id="jobTitle">Full Stack Software Developer</p>
+              <p id="location">Toronto, Canada</p>
             </div>
             <div id="skills">
               <div id="myTechnologies">
-                Technologies
+                <div>
+                  Technologies
+                </div>
                 <ul className="technologies">
                   <li className="technology">Django</li>
                   <li className="technology">AngularJS</li>
@@ -25,14 +28,18 @@ export default class Introduction extends React.Component {
                 </ul>
               </div>
               <div id="languages">
-                Languages
+                <div>
+                  Languages
+                </div>
                 <ul className="technologies">
                   <li className="technology">Python</li>
                   <li className="technology">Javascript</li>
                 </ul>
               </div>
               <div id="others">
-                Others
+                <div>
+                  Others
+                </div>
                 <ul className="technologies">
                   <li className="technology">Nginx</li>
                   <li className="technology">Celery</li>
@@ -52,14 +59,14 @@ export default class Introduction extends React.Component {
                 I am a full stack software developer working in Toronto. In my spare time, I work on side projects exploring
                 different areas such as distributed systems design, machine learning, and procedural generation.
               </p>
-              <p className="col-lg-4" style={{fontSize: "1.25rem"}}>
+              <div className="col-lg-4" style={{fontSize: "1.25rem"}}>
                 <ul id="introLinks">
                   <li><span><i className="fas fa-envelope"></i></span>email@email.com</li>
                   <li><span><i className="fas fa-file"></i></span>resume.pdf</li>
                   <li><span><i className="fab fa-github-square"></i></span>github</li>
                   <li><span><i className="fab fa-linkedin"></i></span>linkedin</li>
                 </ul>
-              </p>
+              </div>
             </div>
             <div className="education">
               <img className="schoolLogo" src="img/mcmaster_logo.png" />
