@@ -57,12 +57,13 @@ export default class IndexPage extends React.Component {
           </div>
         </div>
       	<div className="foreground">
-          <div id="header">
-            <span id="introductionNav" onClick={() => { this.setActiveComponent("Introduction")}}>About Me</span> | 
-            <span id="experienceNav"  onClick={() => { this.setActiveComponent("Experience")}}>Experience</span> | 
-            <span id="projectsNav"  onClick={() => { this.setActiveComponent("Projects")}}>Projects</span> 
+          <Introduction></Introduction>
+          <div>
+            <Experience></Experience>
+            <Projects></Projects>
+            <Education></Education>
+            <Skills></Skills>
           </div>
-            { this.state.activeComponent }
     			<div id="footer">
     				<span>Omid Yousufi</span> | <span>Full Stack Software Developer</span>
     			</div>
