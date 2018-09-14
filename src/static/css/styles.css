@@ -150,7 +150,6 @@ html, body {
 
 #intro section {
     background-color: transparent;
-	color: #2a93cb;
 	height: 80vh;
 }
 
@@ -173,26 +172,32 @@ html, body {
 }
 
 #introImage div {
-	font-size: 1.25rem;
-    line-height: 1.2;
+	font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.imageCropper {
+	height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.imageCropper img {
+	height: 100%;
+	width: auto;
 }
 
 #jobTitle {
-	font-style: italic;
-	margin-bottom: 0;
-    line-height: 1.2;
-}
-
-#location {
-    line-height: 1.2;
-	font-size: 0.9rem;
-}
-
-#introImage img {
-	margin-top: 2rem;
-	margin-bottom: 1rem;
-	border: 1px #fff solid;
-    border-radius: 300px;
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-top: -0.25rem;
 }
 
 #myTechnologies ul {

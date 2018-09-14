@@ -9,10 +9,11 @@ export default class Introduction extends React.Component {
           <div id="introText">
             <div className="introduction">
               <div id="introImage">
-                <img height="125" width="125" src="img/round_profile copy.png" alt="" />
+                <div className="imageCropper">
+                  <img src="img/round_profile copy.png" alt="" />
+                </div>
                 <div>Omid Yousufi</div>
-                <p id="jobTitle">Full Stack Software Developer</p>
-                <p id="location">Toronto, Canada</p>
+                <p id="jobTitle">Full Stack Software Developer - Toronto, Canada</p>
               </div>
             </div>
           </div>
