@@ -14,37 +14,6 @@ export default class IndexPage extends React.Component {
     }
   }
 
-  highlightComponent(component) {
-    //TODO: underline the selected component in the header
-
-    // first, remove highlighted component using state info
-
-    // second, highlight the selected component and update state info
-  }
-
-  setActiveComponent(component){
-    switch(component) {
-        case "Introduction":
-          this.setState({ 
-            activeComponent: <Introduction/>,
-          });
-          break;
-        case "Experience":
-          this.setState({ 
-            activeComponent: <Experience/>,
-          });
-          break;
-        case "Projects":
-          this.setState({ 
-            activeComponent: <Projects/>,
-          });
-          break;
-        default:
-            console.log("Can not switch to that component.");
-    }
-    this.highlightComponent(component)
-  }
-
   render() {
     return (
       <div >
@@ -57,12 +26,14 @@ export default class IndexPage extends React.Component {
           </div>
         </div>
       	<div className="foreground">
-          <Introduction></Introduction>
-          <div>
-            <Experience></Experience>
-            <Projects></Projects>
-            <Education></Education>
-            <Skills></Skills>
+          <div className="aligner">
+            <Introduction></Introduction>
+            <div className="sectionWrapper">
+              <Experience></Experience>
+              <Projects></Projects>
+              <Education></Education>
+              <Skills></Skills>
+            </div>
           </div>
     			<div id="footer">
     				<span>Omid Yousufi</span> | <span>Full Stack Software Developer</span>

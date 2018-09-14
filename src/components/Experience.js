@@ -4,9 +4,13 @@ import React from 'react';
 export default class Experience extends React.Component {
   render() {
     return (
-    	<div className="sectionWrapper">
 			<section id="experience">
 				<div style={{paddingBottom: "1rem"}}>
+					<ul id="introLinks">
+	                    <li><span><i className="fas fa-file"></i></span>resume.pdf</li>
+	                    <li><span><i className="fab fa-github-square"></i></span>github</li>
+	                    <li><span><i className="fab fa-linkedin"></i></span>linkedin</li>
+	                  </ul>
 					<div className="whiteSpace" style={{height:"10vh"}}>
 						<img className="logo" src="img/bct_logo.png" />
 						<div>
@@ -56,7 +60,6 @@ export default class Experience extends React.Component {
 					</ul>
 				</div>
 			</section>
-		</div>
     );
   }
 }

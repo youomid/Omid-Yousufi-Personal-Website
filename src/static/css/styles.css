@@ -1,16 +1,20 @@
 body {
 	margin: 0;
-	background-color: #2a93cb !important;
+	background-color: #1e252d !important;
 }
 
 .foreground {
 	position: absolute;
 }
 
+.aligner {
+	margin: 0 15vw;
+}
+
 html, body { 
 	width:100%; height:100%;
-} 
-
+}
+ 
 
 /*header section*/
 #header {
@@ -138,20 +142,37 @@ html, body {
 	font-weight: 900;
 }
 
+#intro {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    line-height: 1;
+    color: #fff;
+}
+
+#intro section {
+    background-color: transparent;
+	color: #2a93cb;
+	height: 80vh;
+}
+
 .sidebar {
 	background-color: #2a93cb;
 	color: #fff;
 }
 
 .introduction {
-	height: 50%;
+	height:100%;
 }
 
-#introSideBar {
+#introImage {
 	text-align: center;
+	height:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-#introSideBar div {
+#introImage div {
 	font-size: 1.25rem;
     line-height: 1.2;
 }
@@ -167,7 +188,7 @@ html, body {
 	font-size: 0.9rem;
 }
 
-#introSideBar img {
+#introImage img {
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	border: 1px #fff solid;
@@ -201,6 +222,7 @@ html, body {
 #introText {
 	padding: 4rem;
 	text-align: left;
+	height: 100%
 }
 
 #introLinks {
@@ -273,23 +295,14 @@ html, body {
 }
 
 .sectionWrapper {
-    width: 100vw;
-	justify-content: center;
-    min-height: 63vh;
-    display: flex;
-    flex-direction: column;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     line-height: 1;
     color: #fff;
-    margin: 1rem 0rem;
 }
 
 .sectionWrapper section {
-	margin-left: 7.5rem;
-    margin-right: 7.5rem;
-    background-color: #ccc;
+    background-color: #fff;
 	color: #2a93cb;
-	background-color: #fff;
 	border-radius: 2px;
 	height: 80vh;
 	border: 2px #fff solid;
