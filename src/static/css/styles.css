@@ -150,7 +150,7 @@ html, body {
 
 #intro section {
     background-color: transparent;
-	height: 80vh;
+	height: 95vh;
 }
 
 .sidebar {
@@ -171,10 +171,10 @@ html, body {
     flex-direction: column;
 }
 
-#introImage div {
+#name {
+	margin-bottom: 2rem;
 	font-size: 5rem;
     line-height: 1;
-    margin-bottom: 2rem;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-weight: 900;
     letter-spacing: 0.075em;
@@ -194,10 +194,26 @@ html, body {
 	width: auto;
 }
 
+.fa-arrow-circle-down:hover {
+	color: #3b5998;
+	cursor: pointer;
+}
+
 #jobTitle {
     font-size: 1.25rem;
     font-style: italic;
     margin-top: -0.25rem;
+    margin-bottom: 3vh;
+}
+
+.arrow {
+	list-style: none;
+	font-size: 4rem;
+	padding-left: 0;
+}
+
+.arrow a {
+	color: #fff;
 }
 
 #myTechnologies ul {

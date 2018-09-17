@@ -12,11 +12,14 @@ export default class Introduction extends React.Component {
                 <div className="imageCropper">
                   <img src="img/round_profile copy.png" alt="" />
                 </div>
-                <div>Omid Yousufi</div>
+                <div id="name">Omid Yousufi</div>
                 <p id="jobTitle">Full Stack Software Developer - Toronto, Canada</p>
+                <ul className="arrow">
+                  <li><span className="fas fa-arrow-circle-down"></span></li>
+                </ul>
               </div>
             </div>
-          </div>
+            </div>
         </section>
       </div>
     );
