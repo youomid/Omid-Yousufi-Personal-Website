@@ -4,6 +4,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Education from './Education';
 import Skills from './Skills';
+import Navigation from './Navigation';
 
 export default class IndexPage extends React.Component {
 
@@ -29,6 +30,7 @@ export default class IndexPage extends React.Component {
           <div className="aligner">
             <Introduction></Introduction>
             <div className="sectionWrapper">
+              <Navigation></Navigation>
               <Experience></Experience>
               <Projects></Projects>
               <Education></Education>
