@@ -3,7 +3,7 @@ import React from 'react';
 export default class Skills extends React.Component {
   render() {
     return (
-		<div id="skills" className="row">
+		<section id="skills" className="row">
 			<div className="col-sm-4">
 				<h3>Languages</h3>
 				<ul className="skillsList">
@@ -31,7 +31,7 @@ export default class Skills extends React.Component {
 					<li className="paddingLeft">AWS</li>
 				</ul>
 			</div>
-		</div>
+		</section>
     );
   }
 }

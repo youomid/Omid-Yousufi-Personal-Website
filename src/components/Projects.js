@@ -3,7 +3,7 @@ import React from 'react';
 export default class Projects extends React.Component {
   render() {
     return (
-		<section>
+		<section >
 			<div className="row projects">
 				<article className="project col-lg-4">
 					<a href="https://github.com/youomid/MeasureMe" className="image fit"><img src="img/measureme.png" alt="" /></a>
