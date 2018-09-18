@@ -5,6 +5,9 @@ export default class Experience extends React.Component {
   render() {
     return (
 			<section id="experience">
+				<header>
+					Experience
+				</header>
 				<div style={{paddingBottom: "1rem"}}>
 					<div className="whiteSpace" style={{height:"10vh"}}>
 						<img className="logo" src="img/bct_logo.png" />

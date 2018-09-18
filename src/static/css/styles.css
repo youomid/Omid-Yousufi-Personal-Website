@@ -454,6 +454,13 @@ html, body {
 	padding: 4rem;
 }
 
+#experience header {
+	margin: 0 0 4rem 0;
+	text-align: center;
+	font-size: 5rem;
+	text-transform: uppercase;
+}
+
 .whiteSpace {
 	white-space: nowrap;
 }
