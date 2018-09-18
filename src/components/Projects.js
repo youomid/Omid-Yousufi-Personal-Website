@@ -3,9 +3,12 @@ import React from 'react';
 export default class Projects extends React.Component {
   render() {
     return (
-		<section >
+		<section style={{borderBottom: "solid 2px #eeeeee"}}>
+			<header className="sectionHeader">
+				Projects
+			</header>
 			<div className="row projects">
-				<article className="project col-lg-4">
+				<article className="project col-lg-6">
 					<a href="https://github.com/youomid/MeasureMe" className="image fit"><img src="img/measureme.png" alt="" /></a>
 					<header>
 						<h2><a href="https://github.com/youomid/MeasureMe">MeasureMe</a><span className="floatRight">05/2018 - Present</span></h2>
@@ -19,7 +22,7 @@ export default class Projects extends React.Component {
 						<div className="technology">Django</div>
 					</div>
 				</article>
-				<article className="project col-lg-4">
+				<article className="project col-lg-6">
 					<a href="spritegen/" className="image fit"><img src="img/sprite_gen.png" alt="" /></a>
 					<header>
 						<h2><a style={{float:"left"}} href="spritegen/">SpriteGen</a><span className="floatRight">02/2018 - 04/2018</span></h2>
@@ -32,7 +35,7 @@ export default class Projects extends React.Component {
 						<div className="technology">ExpressJS</div>
 					</div>
 				</article>
-				<article className="project col-lg-4">
+				<article className="project col-lg-6">
 					<a href="tiltorcarry/" className="image fit"><img src="img/toc_home.png" alt="" /></a>
 					<header>
 						<h2><a href="tiltorcarry/">TiltOrCarry</a><span className="floatRight">01/2017 - 01/2018</span></h2>
@@ -48,7 +51,7 @@ export default class Projects extends React.Component {
 						<div className="technology">Logistic Regression</div>
 					</div>
 				</article>
-				<article className="project col-lg-4">
+				<article className="project col-lg-6">
 					<a href="https://play.google.com/store/apps/details?id=com.voltropic.imdo.dynamictimer" className="image fit"><img src="img/dynamic_timer.png" alt="" /></a>
 					<header>
 						<h2><a href="https://play.google.com/store/apps/details?id=com.voltropic.imdo.dynamictimer">Dynamic Timer</a><span className="floatRight">09/2015 - 02/2016</span></h2>

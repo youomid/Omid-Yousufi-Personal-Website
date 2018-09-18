@@ -5,7 +5,7 @@ export default class Experience extends React.Component {
   render() {
     return (
 			<section id="experience">
-				<header>
+				<header className="sectionHeader">
 					Experience
 				</header>
 				<div style={{paddingBottom: "1rem"}}>

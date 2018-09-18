@@ -3,7 +3,10 @@ import React from 'react';
 export default class Education extends React.Component {
   render() {
     return (
-		<section className="whiteSpace" >
+		<section style={{borderBottom: "solid 2px #eeeeee"}}>
+			<header className="sectionHeader">
+				Education
+			</header>
 			<div className="education">
 				<img className="schoolLogo" src="img/mcmaster_logo.png" />
 				<header>

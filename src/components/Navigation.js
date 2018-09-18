@@ -3,7 +3,7 @@ import React from 'react';
 export default class Skills extends React.Component {
   render() {
     return (
-		<section id="navigation" className="row">
+		<div id="navigation" className="row">
 			<nav id="nav">
 				<ul className="links">
 					<li className="active"><a href="index.html">Career</a></li>
@@ -14,7 +14,7 @@ export default class Skills extends React.Component {
 					<li><a href="omid_yousufi_resume.pdf" className="icon fas fa-file"><span className="label">Resume</span></a></li>
 				</ul>
 			</nav>
-		</section>
+		</div>
     );
   }
 }
