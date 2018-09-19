@@ -7,28 +7,28 @@ export default class Skills extends React.Component {
 			<div className="col-sm-4">
 				<h3>Languages</h3>
 				<ul className="skillsList">
-					<li className="paddingLeft">Python</li>
-					<li className="paddingLeft">Javascript</li>
-					<li className="paddingLeft">Java</li>
+					<li className="skill">Python</li>
+					<li className="skill">Javascript</li>
+					<li className="skill">Java</li>
 				</ul>
 			</div>
 			<div className="col-sm-4">
 				<h3>Technologies</h3>
 				<ul className="skillsList">
-					<li className="paddingLeft">Django</li>
-					<li className="paddingLeft">AngularJS, ReactJS, Redux</li>
-					<li className="paddingLeft">Bootstrap</li>
-					<li className="paddingLeft">Redis, PostgreSQL</li>
+					<li className="skill">Django</li>
+					<li className="skill">AngularJS, ReactJS, Redux</li>
+					<li className="skill">Bootstrap</li>
+					<li className="skill">Redis, PostgreSQL</li>
 				</ul>
 			</div>
 			<div className="col-sm-4">
 				<h3>Others</h3>
 				<ul className="skillsList">
-					<li className="paddingLeft">Nginx</li>
-					<li className="paddingLeft">Celery</li>
-					<li className="paddingLeft">Selenium</li>
-					<li className="paddingLeft">Webpack</li>
-					<li className="paddingLeft">AWS</li>
+					<li className="skill">Nginx</li>
+					<li className="skill">Celery</li>
+					<li className="skill">Selenium</li>
+					<li className="skill">Webpack</li>
+					<li className="skill">AWS</li>
 				</ul>
 			</div>
 		</section>

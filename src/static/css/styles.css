@@ -18,6 +18,7 @@ html, body {
 .sectionHeader {
 	margin: 0 0 4rem 0;
 	text-align: center;
+    font-weight: 900;
 	font-size: 5rem;
 	text-transform: uppercase;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -682,6 +683,12 @@ a.image:hover img {
 	margin: 0;
 }
 
+.education h2 {
+    font-weight: 900;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
 .schoolLogo {
 	display:inline;
 	float:left;
@@ -695,9 +702,18 @@ a.image:hover img {
 
 /*skills section*/
 
-.skills {
-	padding: 0;
-	height: 40vh;
+#skills {
+	height: 34vh;
+}
+
+.skill {
+    line-height: 2;
+}
+
+#skills h3 {
+	text-transform: uppercase;
+    font-weight: 900;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .paddingLeft {
