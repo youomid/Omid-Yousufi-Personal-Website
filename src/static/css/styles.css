@@ -492,12 +492,12 @@ html, body {
 .sectionWrapper {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     line-height: 1;
-    color: #fff;
+    color: #212931;
     background-color: #fff;
 }
 
 .sectionWrapper section {
-	color: #2a93cb;
+	color: #000;
 	padding: 4rem;
 }
 
@@ -717,7 +717,8 @@ a.image:hover img {
 	line-height: 1.5;
 	text-align: center;
 	text-transform: uppercase;
-	color: #fff;
+	color: rgba(255, 255, 255, 0.25);
+	margin: 4rem auto 8rem auto;
 }
 
 #footer span {
