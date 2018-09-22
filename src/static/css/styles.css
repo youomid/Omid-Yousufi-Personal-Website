@@ -483,6 +483,11 @@ html, body {
 	float: right;
 }
 
+.jobDescriptionWrapper {
+	padding-bottom: 1rem;
+    margin: 0 2.5vw;
+}
+
 .jobDescription li{
 	margin-bottom: 0.5rem;
 	line-height: 2;
@@ -532,9 +537,6 @@ html, body {
 /*projects section*/
 
 .projects {
-	margin: 0;
-	height: 140vh;
-	width: 100%;
 	padding: 1rem;
 }
 
@@ -545,7 +547,7 @@ html, body {
 }
 
 .project p {
-	margin: 0 0 1rem 0;
+	margin: 1rem 0 1rem 0;
 }
 
 .project header {
@@ -560,7 +562,9 @@ html, body {
 	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 1.25rem;
+	font-size: 1.75rem;
+	margin-bottom: 1rem;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
 .project header h2 a{

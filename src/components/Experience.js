@@ -11,7 +11,7 @@ export default class Experience extends React.Component {
 					<header className="sectionHeader">
 						Experience
 					</header>
-					<div style={{paddingBottom: "1rem"}}>
+					<div className="jobDescriptionWrapper">
 						<div className="whiteSpace" style={{height:"10vh"}}>
 							<img className="logo" src="img/bct_logo.png" />
 							<div>
@@ -37,7 +37,7 @@ export default class Experience extends React.Component {
 							</li>
 						</ul>
 					</div>
-					<div style={{paddingBottom: "1rem"}}>
+					<div className="jobDescriptionWrapper">
 						<div className="whiteSpace" style={{height:"10vh"}}>
 							<img className="logo" src="img/bct_logo.png" />
 							<div>
