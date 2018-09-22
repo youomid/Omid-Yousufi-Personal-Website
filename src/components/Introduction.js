@@ -18,7 +18,7 @@ export default class Introduction extends React.Component {
                 <p id="jobTitle">Full Stack Software Developer - Toronto, Canada</p>
                 <ul className="arrow">
                   <li>
-                  <Link to="firstInsideContainer" smooth={true} duration={800}>
+                  <Link to="Experience" smooth={true} duration={800}>
                     <span className="fas fa-arrow-circle-down"></span>
                   </Link>
                   </li>

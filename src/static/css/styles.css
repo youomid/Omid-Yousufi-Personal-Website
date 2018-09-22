@@ -465,8 +465,9 @@ html, body {
 	border-bottom: solid 2px #eeeeee;
 }
 
-.whiteSpace {
+.logoWrapper {
 	white-space: nowrap;
+	height: 10vh;
 }
 
 .logo {
@@ -518,6 +519,7 @@ html, body {
 	letter-spacing: 0.075em;
 	text-transform: uppercase;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
+	margin-bottom: 0.3em;
 }
 
 .jobWrapper ul {
