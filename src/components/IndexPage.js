@@ -5,6 +5,8 @@ import Projects from './Projects';
 import Education from './Education';
 import Skills from './Skills';
 import Navigation from './Navigation';
+import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 
 export default class IndexPage extends React.Component {
 

@@ -144,7 +144,7 @@ html, body {
 /*introduction section*/
 
 #intro {
-	height: 80vh;
+	height: 100vh;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     line-height: 1;
     color: #fff;
@@ -179,6 +179,7 @@ html, body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 14.5vh;
 }
 
 #name {
