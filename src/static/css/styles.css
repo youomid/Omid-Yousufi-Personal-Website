@@ -22,6 +22,7 @@ html, body {
 	font-size: 5rem;
 	text-transform: uppercase;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	letter-spacing: 0.075em;
 }
  
 
@@ -460,7 +461,7 @@ html, body {
 /*experience section*/
 
 #experience {
-	height: 100vh;
+	height: 110vh;
 	border-bottom: solid 2px #eeeeee;
 }
 
@@ -507,7 +508,7 @@ html, body {
 
 .sectionWrapper section {
 	color: #000;
-	padding: 4rem;
+	padding: 6rem;
 }
 
 .jobTitle {
@@ -563,6 +564,7 @@ html, body {
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.75rem;
+	letter-spacing: 0.075em;
 	margin-bottom: 1rem;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
@@ -692,6 +694,8 @@ a.image:hover img {
     font-weight: 900;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	text-transform: uppercase;
+	letter-spacing: 0.075em;
+    font-size: 1.75rem;
 }
 
 .schoolLogo {
@@ -719,6 +723,7 @@ a.image:hover img {
 	text-transform: uppercase;
     font-weight: 900;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	letter-spacing: 0.075em;
 }
 
 .paddingLeft {

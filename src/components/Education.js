@@ -11,8 +11,8 @@ export default class Education extends React.Component {
 				<img className="schoolLogo" src="img/mcmaster_logo.png" />
 				<header>
 					<h2>Bachelor of Engineering, Electrical </h2>
-					<p className="margin0">McMaster University - Hamilton, Ontario<span className="floatRight">2011 - 2015</span></p>
-					<p className="margin0"><strong>Courses: </strong>Analog Circuits, Power Systems, etc.</p>
+					<p style={{marginBottom: ".25rem"}}>McMaster University - Hamilton, Ontario<span className="floatRight">2011 - 2015</span></p>
+					<p style={{marginBottom: ".5rem"}}><strong>Courses: </strong>Analog Circuits, Power Systems, etc.</p>
 				</header>
 			</div>
 		</section>
