@@ -1,77 +1,97 @@
 import React from 'react';
 
 export default class Projects extends React.Component {
-  render() {
-    return (
-		<section style={{borderBottom: "solid 2px #eeeeee"}}>
-			<header className="sectionHeader">
-				Projects
-			</header>
-			<div className="row projects">
-				<article className="project col-lg-6">
+
+	constructor(props){
+		super(props);
+		this.projects = [
+			{
+				name: "MeasureMe",
+				date: "05/2018 - Present",
+				link: "https://github.com/youomid/MeasureMe",
+				image: "img/measureme.png",
+				description: "A personal analytics web application that uses a realtime distributed event processing system to provide insight into a user's productivity.",
+				technologies: ["Docker", "Angular", "Django"]
+			},
+			{
+				name: "SpriteGen",
+				date: "02/2018 - 04/2018",
+				link: "spritegen/",
+				image: "img/sprite_gen.png",
+				description: "A web application that procedurally generates 2D pixel sprites using the Pixel Robot algorithm.",
+				technologies: ["AngularJS", "ExpressJS"]
+			},
+			{
+				name: "TiltOrCarry",
+				date: "01/2017 - 01/2018",
+				link: "tiltorcarry/",
+				image: "img/toc_home.png",
+				description: "A data analytics web application for League Of Legends that uses statistics and machine learning to analyze data.",
+				technologies: ["React", "Redux", "Django", "PostgreSQL", "Logistic Regression"]
+			},
+			{
+				name: "Dynamic Timer",
+				date: "09/2015 - 02/2016",
+				link: "https://play.google.com/store/apps/details?id=com.voltropic.imdo.dynamictimer",
+				image: "img/dynamic_timer.png",
+				description: "An android mobile application that helps improve productivity through the break point system.",
+				technologies: ["Java", "XML", "SQL", "Android Studio"]
+			},
+		];
+	}
+
+	generateTechnologies(project) {
+		var technologies = [];
+
+		for(var i =0; i < project.technologies.length; i++) {
+			technologies.push(
+				<div key={i} className="technology">
+					{project.technologies[i]}
+				</div>
+			);
+		}
+
+		return technologies;
+	}
+
+	generateProjectHtml() {
+		var projects = [];
+
+		for(var i = 0; i < this.projects.length; i++){
+			projects.push(
+				<article key={i} className="project col-lg-6">
 					<header style={{textAlign: "center"}}>
-						<p>05/2018 - Present</p>
-						<h2><a href="https://github.com/youomid/MeasureMe"></a>MeasureMe</h2>
+						<p>{this.projects[i].date}</p>
+						<h2><a href={this.projects[i].link}></a>{this.projects[i].name}</h2>
 					</header>
-					<a href="https://github.com/youomid/MeasureMe" className="image fit"><img src="img/measureme.png" alt="" /></a>
+					<a href={this.projects[i].link} className="image fit"><img src={this.projects[i].image} alt="" /></a>
 					<div className="projectDescription">
-						<p>A personal analytics web application that uses a realtime distributed event processing system to provide insight into a user's productivity.</p>
+						<p>{this.projects[i].description}</p>
 					</div>
 					<div className="technologies">
-						<div className="technology">Docker</div>
-						<div className="technology">Angular</div>
-						<div className="technology">Django</div>
+						{
+							this.generateTechnologies(this.projects[i])
+						}
 					</div>
 				</article>
-				<article className="project col-lg-6">
-					<header style={{textAlign: "center"}}>
-						<p>02/2018 - 04/2018</p>
-						<h2><a href="spritegen/"></a>SpriteGen</h2>
-					</header>
-					<a href="spritegen/" className="image fit"><img src="img/sprite_gen.png" alt="" /></a>
-					<div className="projectDescription">
-						<p>A web application that procedurally generates 2D pixel sprites using the Pixel Robot algorithm.</p>
-					</div>
-					<div className="technologies">
-						<div className="technology">AngularJS</div>
-						<div className="technology">ExpressJS</div>
-					</div>
-				</article>
-				<article className="project col-lg-6">
-					<header style={{textAlign: "center"}}>
-						<p>01/2017 - 01/2018</p>
-						<h2><a href="tiltorcarry/"></a>TiltOrCarry</h2>
-					</header>
-					<a href="tiltorcarry/" className="image fit"><img src="img/toc_home.png" alt="" /></a>
-					<div className="projectDescription">
-						<p>A data analytics web application for League Of Legends that uses statistics and machine learning to analyze data.</p>
-					</div>
-					<div className="technologies">
-						<div className="technology">React</div>
-						<div className="technology">Redux</div>
-						<div className="technology">Django</div>
-						<div className="technology">PostgreSQL</div>
-						<div className="technology">Logistic Regression</div>
-					</div>
-				</article>
-				<article className="project col-lg-6">
-					<header style={{textAlign: "center"}}>
-						<p>09/2015 - 02/2016</p>
-						<h2><a href="https://play.google.com/store/apps/details?id=com.voltropic.imdo.dynamictimer"></a>Dynamic Timer</h2>
-					</header>
-					<a href="https://play.google.com/store/apps/details?id=com.voltropic.imdo.dynamictimer" className="image fit"><img src="img/dynamic_timer.png" alt="" /></a>
-					<div className="projectDescription">
-						<p>An android mobile application that helps improve productivity through the break point system.</p>
-					</div>
-					<div className="technologies">
-						<div className="technology">Java</div>
-						<div className="technology">XML</div>
-						<div className="technology">SQL</div>
-						<div className="technology">Android Studio</div>
-					</div>
-				</article>
-			</div>
-		</section>
-    );
-  }
+			)
+		}
+
+		return projects;
+	}
+
+	render() {
+		return (
+			<section style={{borderBottom: "solid 2px #eeeeee"}}>
+				<header className="sectionHeader">
+					Projects
+				</header>
+				<div className="row projects">
+					{
+						this.generateProjectHtml()
+					}
+				</div>
+			</section>
+		);
+	}
 }
