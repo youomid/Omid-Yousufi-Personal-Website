@@ -20,7 +20,7 @@ export default class Education extends React.Component {
 
 		for(var i =0; i < this.education.length; i++) {
 			education.push(
-				<div className="education">
+				<div key={i} className="education">
 					<img className="schoolLogo" src={this.education[i].logo} />
 					<header>
 						<h2>{this.education[i].degree}</h2>

@@ -714,7 +714,8 @@ a.image:hover img {
 /*skills section*/
 
 #skills {
-	height: 34vh;
+	height: 40vh;
+	text-align: center;
 }
 
 .skill {
@@ -726,6 +727,8 @@ a.image:hover img {
     font-weight: 900;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	letter-spacing: 0.075em;
+	font-size: 1.25rem;
+	margin-bottom: 1.5rem;
 }
 
 .paddingLeft {
