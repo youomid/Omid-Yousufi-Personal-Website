@@ -10,7 +10,6 @@ export default class Education extends React.Component {
 				date: "2011 - 2015",
 				logo: "img/mcmaster_logo.png",
 				address: "McMaster University - Hamilton, Ontario",
-				courses: "Analog Circuits, Power Systems, etc."
 			}
 		];
 	}
@@ -22,10 +21,9 @@ export default class Education extends React.Component {
 			education.push(
 				<div key={i} className="education">
 					<img className="schoolLogo" src={this.education[i].logo} />
-					<header>
+					<header style={{paddingTop: "1rem"}}>
 						<h2>{this.education[i].degree}</h2>
 						<p style={{marginBottom: ".25rem"}}>{this.education[i].address}<span style={{float:"right"}}>{this.education[i].date}</span></p>
-						<p style={{marginBottom: ".5rem"}}><strong>Courses: </strong>{this.education[i].courses}</p>
 					</header>
 				</div>
 			);

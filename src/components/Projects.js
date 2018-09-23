@@ -11,7 +11,7 @@ export default class Projects extends React.Component {
 				link: "https://github.com/youomid/MeasureMe",
 				image: "img/measureme.png",
 				description: "A personal analytics web application that uses a realtime distributed event processing system to provide insight into a user's productivity.",
-				technologies: ["Docker", "Angular", "Django"]
+				technologies: ["Docker", "Angular6", "Django"]
 			},
 			{
 				name: "SpriteGen",
@@ -27,7 +27,7 @@ export default class Projects extends React.Component {
 				link: "tiltorcarry/",
 				image: "img/toc_home.png",
 				description: "A data analytics web application for League Of Legends that uses statistics and machine learning to analyze data.",
-				technologies: ["React", "Redux", "Django", "PostgreSQL", "Logistic Regression"]
+				technologies: ["React", "Redux", "Django", "Celery", "PostgreSQL", "Logistic Regression"]
 			},
 			{
 				name: "Dynamic Timer",
@@ -60,9 +60,9 @@ export default class Projects extends React.Component {
 		for(var i = 0; i < this.projects.length; i++){
 			projects.push(
 				<article key={i} className="project col-lg-6">
-					<header style={{textAlign: "center"}}>
+					<header style={{textAlign: "center", "marginBottom": "1rem"}}>
 						<p>{this.projects[i].date}</p>
-						<h2><a href={this.projects[i].link}></a>{this.projects[i].name}</h2>
+						<h2><a href={this.projects[i].link}>{this.projects[i].name}</a></h2>
 					</header>
 					<a href={this.projects[i].link} className="image fit"><img src={this.projects[i].image} alt="" /></a>
 					<div className="projectDescription">

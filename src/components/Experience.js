@@ -14,12 +14,12 @@ export default class Experience extends React.Component {
 				date: "November, 2017 - Present",
 				logo: "img/bct_logo.png",
 				descriptions: [
-					"Converted existing data processing system to a highly scalable concurrent system that can process thousands of calls per second",
-					"Coordinated migration of AWS servers to own servers, reducing monthly server costs by over 60%.",
-					"Managed and architected new features for a realtime reporting web application that retrieves, processes and analyzes VOIP phone call data.",
-					"Created a collection of scheduled tests to automatically check the application and return a report of its state."
+					"Upgraded architecture by improving the software redundancy enabling zero downtime deployments, failover, and load balancing.",
+					"Converted existing data processing system to a highly scalable concurrent system that can process tens of thousands of calls per second.",
+					"Coordinated migration of AWS servers to own servers, reducing monthly server costs by over 60%. As well as moved several services from third party servers to further reduce costs (e.g RabbitMQ as a service, sentry, loggly, etc.)",
+					"Developed REST api's following security best practices and optimizing performance to minimize server/database load."
 				],
-				technologies: "Django, AngularJS, Bootstrap, Nginx, Celery, Selenium, Redis, PostgreSQL"
+				technologies: "Django, AngularJS, React, RabbitMQ, Celery, Redis, PostgreSQL"
 			},
 			{
 				title: "Junior Full Stack Software Developer",
@@ -27,11 +27,12 @@ export default class Experience extends React.Component {
 				date: "May, 2016 - November, 2017",
 				logo: "img/bct_logo.png",
 				descriptions: [
-					"Developed and maintained a realtime reporting web application that retrieves, processes and analyzes VOIP phone call data.",
+					"Worked on an event processing system using celery and rabbitmq to create metrics that provides user with business intelligence.",
 					"Maintained a low error rate using regression testing with over 80% code coverage, and developed in-house automation tools with Selenium.",
-					"Made changes to frontend to make the website more responsive and improve cross-browser compatibility."
+					"Made changes to improve the responsiveness, accessibility, and cross-browser compatibility of the web application.",
+					"Optimized an AngularJS based frontend to display large amounts of realtime and historical call data without sacrificing performance."
 				],
-				technologies: "Django, AngularJS, Bootstrap, Nginx, Celery, Selenium, Redis, PostgreSQL, AWS"
+				technologies: "Django, AngularJS, Bootstrap, RabbitMQ, Celery, Selenium, Redis, PostgreSQL, AWS"
 			}
 		];
 	}

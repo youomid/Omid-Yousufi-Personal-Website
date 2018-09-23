@@ -588,19 +588,16 @@ html, body {
 	height: 60%;
 }
 
-.project header h2 {
-	font-weight: 900;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 1.75rem;
-	letter-spacing: 0.075em;
-	margin-bottom: 1rem;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
-}
-
 .project header h2 a{
-	color: #2a93cb;	
-	float: left;
+	font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.75rem;
+    letter-spacing: 0.075em;
+    margin-bottom: 1rem;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    width: 100%;
+    color: #000;
 }
 
 .project header h2 a:hover{
