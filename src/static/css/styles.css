@@ -72,6 +72,15 @@ html, body {
 	margin: 0.25rem;
 }
 
+/*not found*/
+
+.not-found {
+	color: #fff;
+	margin: 40vh 0 40vh 0;
+	height: 20vh;
+	text-align: center;
+}
+
 /*background snow*/
 
 .background {
