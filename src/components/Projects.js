@@ -16,7 +16,7 @@ export default class Projects extends React.Component {
 			{
 				name: "SpriteGen",
 				date: "02/2018 - 04/2018",
-				link: "spritegen/",
+				link: "/spritegen/",
 				image: "img/sprite_gen.png",
 				description: "A web application that procedurally generates 2D pixel sprites using the Pixel Robot algorithm.",
 				technologies: ["AngularJS", "ExpressJS"]
