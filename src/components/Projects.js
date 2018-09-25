@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
 			{
 				name: "TiltOrCarry",
 				date: "01/2017 - 01/2018",
-				link: "tiltorcarry/",
+				link: "/tiltorcarry/",
 				image: "img/toc_home.png",
 				description: "A data analytics web application for League Of Legends that uses statistics and machine learning to analyze data.",
 				technologies: ["React", "Redux", "Django", "Celery", "PostgreSQL", "Logistic Regression"]
