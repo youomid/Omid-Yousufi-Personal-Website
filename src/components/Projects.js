@@ -6,12 +6,20 @@ export default class Projects extends React.Component {
 		super(props);
 		this.projects = [
 			{
+				name: "StyleToClass",
+				date: "07/2019 - 08/2019",
+				link: "https://github.com/youomid/StyleToClass",
+				image: "img/styletoclass.gif",
+				description: "A sublime text plugin that converts all the style attributes in an html file to classes.",
+				technologies: ["Python", "BeautifulSoup"]
+			},
+			{
 				name: "MeasureMe",
-				date: "05/2018 - Present",
+				date: "05/2018 - 01/2019",
 				link: "https://github.com/youomid/MeasureMe",
 				image: "img/measureme.png",
 				description: "A personal analytics web application that uses a realtime distributed event processing system to provide insight into a user's productivity.",
-				technologies: ["Docker", "Angular6", "Django"]
+				technologies: ["Docker", "Angular6", "Django", "NodeJS"]
 			},
 			{
 				name: "SpriteGen",

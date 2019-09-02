@@ -10,29 +10,30 @@ export default class Experience extends React.Component {
 		this.jobs = [
 			{
 				title: "Full Stack Software Developer",
-				address: "BroadConnect Telecom - Toronto, Ontario",  
-				date: "November, 2017 - Present",
+				address: "BroadConnect Canada - Toronto, Ontario",  
+				date: "November, 2017 - August 2019",
 				logo: "img/bct_logo.png",
 				descriptions: [
-					"Upgraded architecture by improving the software redundancy enabling zero downtime deployments, failover, and load balancing.",
+					"Upgraded to Blue-Green architecture to improve the software redundancy enabling zero downtime deployments, failover, and load balancing.",
 					"Converted existing data processing system to a highly scalable concurrent system that can process tens of thousands of calls per second.",
-					"Coordinated migration of AWS servers to own servers, reducing monthly server costs by over 60%. As well as moved several services from third party servers to further reduce costs (e.g RabbitMQ as a service, sentry, loggly, etc.)",
+					"Coordinated migration of services from AWS to on-premise servers, reducing monthly costs by over 60%. migration of AWS servers to on-premise servers.",
+					"Optimized an AngularJS based frontend to display large amounts of realtime and historical call data without sacrificing performance.",
 					"Developed REST api's following security best practices and optimizing performance to minimize server/database load."
 				],
-				technologies: "Django, AngularJS, React, RabbitMQ, Celery, Redis, PostgreSQL"
+				technologies: "Django, AngularJS, React, RabbitMQ, Redis, Postgres"
 			},
 			{
 				title: "Junior Full Stack Software Developer",
-				address: "BroadConnect Telecom - Toronto, Ontario",  
+				address: "BroadConnect Canada - Toronto, Ontario",  
 				date: "May, 2016 - November, 2017",
 				logo: "img/bct_logo.png",
 				descriptions: [
 					"Worked on an event processing system using celery and rabbitmq to create metrics that provides user with business intelligence.",
 					"Maintained a low error rate using regression testing with over 80% code coverage, and developed in-house automation tools with Selenium.",
 					"Made changes to improve the responsiveness, accessibility, and cross-browser compatibility of the web application.",
-					"Optimized an AngularJS based frontend to display large amounts of realtime and historical call data without sacrificing performance."
+					"Built responsive reports and dashboards using Bootstrap."
 				],
-				technologies: "Django, AngularJS, Bootstrap, RabbitMQ, Celery, Selenium, Redis, PostgreSQL, AWS"
+				technologies: "Django, AngularJS, Selenium, Celery, AWS, Bootstrap"
 			}
 		];
 	}
