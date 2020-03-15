@@ -8,7 +8,7 @@ export default class Education extends React.Component {
 			{
 				degree: "Bachelor of Engineering, Electrical",
 				date: "2011 - 2015",
-				logo: "img/mcmaster_logo.png",
+				logo: "src/static/img/mcmaster_logo.png",
 				address: "McMaster University - Hamilton, Ontario",
 			}
 		];

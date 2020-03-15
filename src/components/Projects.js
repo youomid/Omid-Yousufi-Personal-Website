@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
 			{
 				name: "SpriteGen",
 				date: "02/2018 - 04/2018",
-				link: "/spritegen/",
+				link: "https://github.com/youomid/SpriteGen/",
 				image: "img/sprite_gen.png",
 				description: "A web application that procedurally generates 2D pixel sprites using the Pixel Robot algorithm.",
 				technologies: ["AngularJS", "ExpressJS"]
@@ -32,7 +32,7 @@ export default class Projects extends React.Component {
 			{
 				name: "TiltOrCarry",
 				date: "01/2017 - 01/2018",
-				link: "/tiltorcarry/",
+				link: "https://github.com/youomid/TiltOrCarry/",
 				image: "img/toc_home.png",
 				description: "A data analytics web application for League Of Legends that uses statistics and machine learning to analyze data.",
 				technologies: ["React", "Redux", "Django", "Celery", "PostgreSQL", "Logistic Regression"]

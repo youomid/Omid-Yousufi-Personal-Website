@@ -12,7 +12,7 @@ export default class Experience extends React.Component {
 				title: "Full Stack Software Developer",
 				address: "BroadConnect Canada - Toronto, Ontario",  
 				date: "November, 2017 - August 2019",
-				logo: "img/bct_logo.png",
+				logo: "src/static/img/bct_logo.png",
 				descriptions: [
 					"Upgraded to Blue-Green architecture to improve the software redundancy enabling zero downtime deployments, failover, and load balancing.",
 					"Converted existing data processing system to a highly scalable concurrent system that can process tens of thousands of calls per second.",
@@ -26,7 +26,7 @@ export default class Experience extends React.Component {
 				title: "Junior Full Stack Software Developer",
 				address: "BroadConnect Canada - Toronto, Ontario",  
 				date: "May, 2016 - November, 2017",
-				logo: "img/bct_logo.png",
+				logo: "src/static/img/bct_logo.png",
 				descriptions: [
 					"Worked on an event processing system using celery and rabbitmq to create metrics that provides user with business intelligence.",
 					"Maintained a low error rate using regression testing with over 80% code coverage, and developed in-house automation tools with Selenium.",
