@@ -5,7 +5,7 @@ import IndexPage from './components/IndexPage';
 import NotFoundPage from './components/NotFoundPage';
 
 const routes = (
-  <Route path="/src/static/" component={Layout}>
+  <Route path="/" component={Layout}>
     <IndexRoute component={IndexPage}/>
     <Route path="*" component={NotFoundPage}/>
   </Route>
