@@ -12,7 +12,7 @@ export default class Introduction extends React.Component {
             <div className="introduction">
               <div id="introImage">
                 <div className="imageCropper">
-                  <img src="img/round_profile copy.png" alt="" />
+                  <img src="src/static/img/round_profile copy.png" alt="" />
                 </div>
                 <div id="name">Omid Yousufi</div>
                 <p id="jobTitle">Full Stack Software Developer - Toronto, Canada</p>
